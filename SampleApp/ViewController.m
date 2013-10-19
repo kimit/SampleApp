@@ -14,9 +14,14 @@
 
 @implementation ViewController
 
+@synthesize myText;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [myText setText:@"Toshi"];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
